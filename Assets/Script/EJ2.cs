@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EJ2 : MonoBehaviour
 {
-	public int num1 = 4;
-	public int num2 = 5;
+	int num1 = 4;
+	int num2 = 5;
 	// Start is called before the first frame update
 	void Start()
 		//2. Realizá un programa que, siendo num1 y num2 variables enteras con valores 4 y 5,
