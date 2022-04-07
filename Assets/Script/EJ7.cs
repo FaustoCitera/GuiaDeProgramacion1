@@ -16,13 +16,25 @@ public class EJ7 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (num1 == num2 && num1 == num3)
+		if (num1 == num2 && num1 == num3)
 		{
 			Debug.Log("Los numeros son iguales");
 		}
 		else if (num1 == 12 && num2 == 4 && num3 == 7)
 		{
-			Debug.Log(" El mayo numero es" + num1);
+			Debug.Log(" El mayor numero es" + num1);
+		}
+		else if (num1 == 2 && num2 == 65 && num3 == 8)
+		{
+			Debug.Log("El mayor numero es" + num2);
+		}
+		else if (num1 == 3 && num2 == 10 && num3 == 28)
+		{
+			Debug.Log("El mayor numero es" + num3);
+		}
+		else if (num1 == 5 && num2 == 5 && num3 == 5)
+		{
+			Debug.Log("Los numeros son iguales");
 		}
     }
 
